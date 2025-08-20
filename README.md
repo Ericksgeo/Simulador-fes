@@ -98,3 +98,13 @@ Permite comparar tu **pago actual** con el nuevo esquema FES, incorporando condo
 
 Este simulador es **referencial** y está basado en la propuesta legislativa (mayo 2025).  
 El cálculo final de condonaciones y pagos dependerá de la implementación oficial que haga el Estado de Chile.
+
+> ⚠️ **Nota sobre la cuota recalculada (A):**  
+> En el proyecto de ley del FES se establece que, tras la condonación inicial, se recalcula una **cuota mensual (A)** que luego se compara con el pago contingente al ingreso (B).  
+> Sin embargo, **la norma no entrega una fórmula financiera explícita** para calcular esta nueva cuota.  
+> 
+> En este simulador se usa una **aproximación referencial** (restar la condonación inicial repartida en las cuotas pendientes).  
+> En la implementación oficial, lo más probable es que **Tesorería o el Ministerio** definan la fórmula exacta, posiblemente basada en un cálculo financiero (anualidad del saldo post condonación con tasa y plazo).  
+> 
+> Por lo tanto, el valor de (A) aquí mostrado debe considerarse **ilustrativo** y no definitivo.
+
